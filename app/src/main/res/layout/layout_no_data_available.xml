@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeNoData"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageDb"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/bg_nodata_available"/>
+        <ImageView
+            android:id="@+id/imageinfo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginEnd="-30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="-8dp"
+            android:baselineAlignBottom="true"
+            android:src="@drawable/bg_nodata_info"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@+id/imageinfo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text="@string/label_no_data_available"
+            style="@style/MyApp.TexView.Label.Primary.Normal" />
+    </LinearLayout>
+
+</FrameLayout>

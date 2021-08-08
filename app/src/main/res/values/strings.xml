@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Flendzz</string>
+
+    <!--app general message-->
+    <string name="label_no_data_available">No Data Available</string>
+
+    <!--    hint-->
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_id">Employee id</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="hint_company_details">Company Details</string>
+    <string name="hint_company_name">Company Name</string>
+    <string name="hint_company_website">Company Website</string>
+
+    <string name="no_internet">No Internet..! Please turn on Wifi or Mobile Data</string>
+
+</resources>

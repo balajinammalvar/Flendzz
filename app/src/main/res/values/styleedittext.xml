@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="StyleEditText">
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="MyApp.EditText.Primary" parent="StyleEditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="background">@drawable/bg_edit_text</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+</resources>

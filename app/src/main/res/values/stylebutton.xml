@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="MyApp.Button.Primary" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/btn_primary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:minHeight">40dp</item>
+    </style>
+
+</resources>
